@@ -3,16 +3,29 @@
     <type fullname="LFG.CharacterCreator.CharacterItemLibrary" preserve="all" />
     <type fullname="LFG.CharacterCreator.CharacterRig" preserve="all" />
     <type fullname="LFG.CharacterCreator.CharacterSet" preserve="all" />
-    <type fullname="LFG.CharacterCreator.ItemBundle" preserve="all" />
     <type fullname="LFG.CharacterCreator.ItemData" preserve="all" />
     <type fullname="LFG.CharacterCreator.MaterialData" preserve="all" />
+    <type fullname="LFG.CharacterCreator.Ragdoll.Ragdoll" preserve="all" />
+    <type fullname="LFG.CharacterCreator.Ragdoll.RagdollSettings" preserve="all" />
     <type fullname="LFG.CharacterCreator.CustomisationData" preserve="nothing" serialized="true" />
     <type fullname="LFG.CharacterCreator.EquippedItem" preserve="nothing" serialized="true" />
     <type fullname="LFG.CharacterCreator.InterpolationModifier" preserve="nothing" serialized="true" />
     <type fullname="LFG.CharacterCreator.ItemGroup" preserve="nothing" serialized="true" />
     <type fullname="LFG.CharacterCreator.ItemMeta" preserve="nothing" serialized="true" />
     <type fullname="LFG.CharacterCreator.MaterialMeta" preserve="nothing" serialized="true" />
+    <type fullname="LFG.CharacterCreator.Ragdoll.RagdollSettings/BoxColliderSettings" preserve="nothing" serialized="true" />
+    <type fullname="LFG.CharacterCreator.Ragdoll.RagdollSettings/CapsuleColliderSettings" preserve="nothing" serialized="true" />
+    <type fullname="LFG.CharacterCreator.Ragdoll.RagdollSettings/ComponentData" preserve="nothing" serialized="true" />
+    <type fullname="LFG.CharacterCreator.Ragdoll.RagdollSettings/ConfigurableJointSettings" preserve="nothing" serialized="true" />
+    <type fullname="LFG.CharacterCreator.Ragdoll.RagdollSettings/JointDrive" preserve="nothing" serialized="true" />
+    <type fullname="LFG.CharacterCreator.Ragdoll.RagdollSettings/RigidbodySettings" preserve="nothing" serialized="true" />
+    <type fullname="LFG.CharacterCreator.Ragdoll.RagdollSettings/SoftJointLimit" preserve="nothing" serialized="true" />
+    <type fullname="LFG.CharacterCreator.Ragdoll.RagdollSettings/SphereColliderSettings" preserve="nothing" serialized="true" />
     <type fullname="LFG.CharacterCreator.RigItemContainer" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="LFG.GM, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="LFG.VFX.VFXSystem" preserve="all" />
+    <type fullname="LFG.VFX.VFXSystem/VFXQuality" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="LFG.UI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="LFG.UI.UIButton" preserve="all" />
@@ -82,6 +95,9 @@
     <type fullname="UnityEngine.Avatar" preserve="all" />
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Light" preserve="all" />
@@ -102,8 +118,15 @@
     <type fullname="UnityEngine.Events.UnityEvent`1" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+    <type fullname="UnityEngine.ConfigurableJoint" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
